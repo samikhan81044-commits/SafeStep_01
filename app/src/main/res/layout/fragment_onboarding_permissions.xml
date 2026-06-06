@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onboarding_permissions_title"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/onboarding_permissions_desc"
+        android:textColor="@color/text_gray_dim"
+        android:textAlignment="center" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/nav_glass_bg"
+        app:cardCornerRadius="16dp"
+        app:strokeColor="@color/glass_border"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <CheckBox
+                android:id="@+id/cbLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/onboarding_perm_location"
+                android:textColor="@color/white"
+                android:buttonTint="@color/neon_green"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <CheckBox
+                android:id="@+id/cbSms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/onboarding_perm_sms"
+                android:textColor="@color/white"
+                android:buttonTint="@color/neon_green"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <CheckBox
+                android:id="@+id/cbMic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/onboarding_perm_mic"
+                android:textColor="@color/white"
+                android:buttonTint="@color/neon_green"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <CheckBox
+                android:id="@+id/cbCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/onboarding_perm_camera"
+                android:textColor="@color/white"
+                android:buttonTint="@color/neon_green"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <CheckBox
+                android:id="@+id/cbSensors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/onboarding_perm_sensors"
+                android:textColor="@color/white"
+                android:buttonTint="@color/neon_green"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tvLocationWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/onboarding_location_warning"
+        android:textColor="@color/status_red_neon"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+</LinearLayout>

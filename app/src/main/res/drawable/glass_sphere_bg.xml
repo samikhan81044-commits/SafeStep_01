@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Inner Glow/Shadow -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:centerX="0.3"
+                android:centerY="0.3"
+                android:endColor="#00000000"
+                android:gradientRadius="70%p"
+                android:startColor="#26FFFFFF"
+                android:type="radial" />
+        </shape>
+    </item>
+    <!-- Border Stroke -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="1.5dp"
+                android:color="@color/glass_border" />
+        </shape>
+    </item>
+    <!-- Top Gloss Highlight -->
+    <item
+        android:bottom="30dp"
+        android:left="20dp"
+        android:right="20dp"
+        android:top="5dp">
+        <shape android:shape="oval">
+            <solid android:color="#1AFFFFFF" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_dark_slate">#12161A</color>
+    <color name="neon_green">#39FF14</color>
+    <color name="neon_green_glow">#6639FF14</color>
+    <color name="cyber_turquoise">#00CED1</color>
+    <color name="emerald_ring">#50C878</color>
+    <color name="glass_border">#33FFFFFF</color>
+    <color name="glass_white_alpha">#1AFFFFFF</color>
+    <color name="glass_dark_alpha">#4D000000</color>
+    <color name="text_gray_dim">#8892B0</color>
+    <color name="gradient_lime">#32CD32</color>
+    <color name="gradient_ocean">#008080</color>
+    <color name="nav_glass_bg">#CC0D1117</color>
+    <color name="status_red_neon">#FF3131</color>
+</resources>
